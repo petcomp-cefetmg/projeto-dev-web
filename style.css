@@ -1,0 +1,52 @@
+body{
+    background-color: #dfdddd;
+}
+
+header{
+    background-color: #45c4B0;
+}
+
+.text-center img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    border: 5px solid #45c4B0;
+    object-fit: cover;
+   
+}
+
+.nav-link.active {
+    color: rgb(104, 104, 104) !important;
+    font-weight: bold;
+}
+
+.nome{
+    font-size: 20px;
+}
+
+main section{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+main section p{
+    text-align: justify;
+}
+
+.text-center img, .card{
+    transition: transform 0.3s ease;
+}
+
+.text-center img:hover, .card:hover {
+    transform: translateY(-5px);
+}
+
+footer{
+    background-color: #45c4B0;
+}
+
+@media (min-width: 900px) {
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+}
